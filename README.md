@@ -50,3 +50,30 @@ src/
 └── app.ts
 
 ---
+
+## 🚀 Endpoints
+
+### 👤 User Endpoints
+```http
+POST   /api/user/create
+GET    /api/user/
+PATCH  /api/user/update/:id
+GET    /api/user/:id
+
+### 💼 Wallet Endpoints
+```http
+GET    /api/wallet/
+PATCH  /api/wallet/update/:id
+GET    /api/wallet/:id
+
+### 💸 Transaction Endpoints
+```http
+POST   /api/transaction/add-money
+POST   /api/transaction/send-money
+POST   /api/transaction/cash-out
+GET    /api/transaction/
+GET    /api/transaction/my-transaction/:id
+
+### 🔐 Auth Endpoints
+```http
+POST   /api/auth/login
