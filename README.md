@@ -108,3 +108,31 @@ POST   /api/auth/login
 - Checks wallet statuses and sender’s balance.
 - Charges a cash-out fee based on amount slabs.
 - Atomically updates sender and receiver wallet balances within a transaction.
+
+
+## 🚀 Project Setup
+
+### Clone the repository
+
+```bash
+git clone https://github.com/YounusMontasir/digital-wallet-system-backend-A5.git
+cd digital-wallet-system-backend-A5
+```
+
+### Install dependencies
+npm install
+
+### Environment Variables
+Create a `.env` file in the root directory and add the following variables:
+
+```env
+PORT=5000
+DB_URL=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+BCRYPT_SALT_ROUND=10
+```
+
+### Install dependencies
+npm install
+
+
